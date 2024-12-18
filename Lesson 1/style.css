@@ -44,6 +44,8 @@ div {
 
 .Sub:hover {
   background-color: rgb(168, 3, 3);
+  opacity: 0.9;
+  /* Opacity is used to fade out an element and it ranges from 0 to 1 */
 }
 
 .Join {

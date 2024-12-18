@@ -34,4 +34,4 @@ Key Takeaways:
 
 - We can use a style tag or Link another file
 
-- There are various ways to select the HTML elements (Visit the CSS CheatSheet Folder)
+- There are various ways to select the HTML elements [Visit the CSS CheatSheet Folder](C:\Users\abisola\Documents\Life\Skills\Web Development\HTML + CSS\CSS Cheatsheet)
