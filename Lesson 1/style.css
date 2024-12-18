@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+div {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.Sub {
+  background-color: rgb(225, 37, 37);
+  /*
+    Note: rgb = red green and blue 
+    Min value = 0
+    Max Value = 255 
+    */
+  color: white;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.1rem;
+}
+
+.Join {
+  color: #0f61cb;
+  background-color: white;
+  border: 1.5px solid #076dac;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+}
+
+.tweet {
+  color: white;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background-color: rgb(14, 156, 238);
+}
