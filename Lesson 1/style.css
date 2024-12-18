@@ -18,6 +18,8 @@ div {
     Note: rgb = red green and blue 
     Min value = 0
     Max Value = 255 
+
+    But rgba includes OPACITY (a = OPACITY - How faded out the element is)
     */
   color: white;
   padding: 0.6rem 1rem;
