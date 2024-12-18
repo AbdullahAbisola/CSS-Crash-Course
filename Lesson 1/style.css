@@ -24,6 +24,26 @@ div {
   font-size: 1rem;
   border: none;
   border-radius: 0.1rem;
+  cursor: pointer;
+  transition: all ease 0.5s;
+
+  /* 
+  How Transitions Work
+  transition: property duration timing-function delay;
+
+  Property: The CSS property you want to animate (e.g., background-color, transform). Use all to apply transitions to all properties.
+
+  Duration: How long the transition takes (e.g., 1s for one second, 500ms for 0.5 seconds).
+  
+  Timing-function (optional): Defines the acceleration curve of the animation (e.g., ease, linear, ease-in, ease-out).
+  
+  Delay (optional): How long to wait before the transition starts. 
+  
+  */
+}
+
+.Sub:hover {
+  background-color: rgb(168, 3, 3);
 }
 
 .Join {
@@ -33,6 +53,14 @@ div {
   padding: 0.6rem 1rem;
   font-size: 1rem;
   border-radius: 0.2rem;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.Join:hover {
+  background-color: #0f61cb;
+  border-color: #0f61cb;
+  color: white;
 }
 
 .tweet {
@@ -40,7 +68,33 @@ div {
   padding: 0.6rem 1rem;
   font-size: 1rem;
   border-radius: 25px;
+  /* To create optimum border radius
+   The trick is to set it to half the height of the button or structure you are styling */
   border: none;
   font-weight: bold;
   background-color: rgb(14, 156, 238);
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+.tweet:hover {
+  background-color: rgb(5, 127, 197);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+
+  /* 
+      How does box shadow work?
+    box-shadow: offset-x offset-y blur-radius spread-radius co
+
+    Offset-x: The horizontal shadow (positive values move the shadow to the right, negative to the left).
+
+    Offset-y: The vertical shadow (positive values move the shadow downward, negative upward).
+    
+    Blur-radius (optional): Determines how blurry the shadow is. Higher values create softer edges.
+    
+    Spread-radius (optional): Expands or contracts the shadow size. Positive values make it larger, negative values smaller.
+    
+    Color: The color of the shadow (can use color names, hex codes, rgba(), etc.).
+    
+    Inset (optional): If included, the shadow appears inside the element instead of outside. 
+    
+    */
 }
